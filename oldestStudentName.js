@@ -42,7 +42,6 @@ for (let i = 0; i < students.length; i++) {
     }
     
 }
-
 console.log(`The oldest student is ${oldestStudent[2]} ${oldestStudent[3]}. He is ${oldestStudent[1]} years old.`);
 // Expexted output:
 //The oldest student is Ivan Ivanov. He is 24 years old.

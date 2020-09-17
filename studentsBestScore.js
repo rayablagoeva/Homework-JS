@@ -18,6 +18,16 @@ var students = [
         ['music', 4],
     ]
 ];
+let stundentName = 'Maria';
+for (let i = 0; i < students.length; i++) {
+    const student = students[i];
+    if(student[0] === stundentName){
+       
+        console.log(`${student[2][0]} - ${student[2][1]}`)
+    }
+    
+}
+// console.log(students[1][2][1]);
 
 
 // Логваме оценките на всеки студент за всеки предмет:
@@ -32,17 +42,17 @@ var students = [
 // >>>>>>> your code starts here >>>>>>>
 
 
-for(let i=0; i<students.length; i++){
-    let bestScore=2;
-    for(let j=1; j<students[i].length; j++){
-        if(students[i][j][1] > bestScore){
-            bestScore= students[i][j][1];
-            subject = students[i][j][0];
-        }
+// for(let i=0; i<students.length; i++){
+//     let bestScore=2;
+//     for(let j=1; j<students[i].length; j++){
+//         if(students[i][j][1] > bestScore){
+//             bestScore= students[i][j][1];
+//             subject = students[i][j][0];
+//         }
         
-    }
-    console.log(`\t${students[i][0]} is best in  ${subject} (${bestScore})`)
-}
+//     }
+//     console.log(`\t${students[i][0]} is best in  ${subject} (${bestScore})`)
+// }
 
 
 // <<<<<<< your code ends here <<<<<<<

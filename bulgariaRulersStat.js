@@ -20,7 +20,7 @@ var rulers = [
 // >>>>>>>>>>НАЧАЛО НА ВАШИЯ КОД >>>>>>>>>>
 for(let i=0; i <rulers.length; i++){
     if((rulers[i][2]- rulers[i][1])> 15){
-        console.log(`${toCamelCaseCyr(rulers[i][0])} е управлявал ${(rulers[i][2]- rulers[i][1])} години`  ); // Аспарух
+        console.log(`${toCamelCaseCyr(rulers[i][0])} е управлявал ${(rulers[i][2]- rulers[i][1])} години`  ); 
     }
 }
 
