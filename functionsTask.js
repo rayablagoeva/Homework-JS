@@ -28,7 +28,7 @@
 
 
 // TEST:
-let x = 5, y = 5;
+let x = 6, y = 3;
 console.log(calc.add(x, y)); // 9
 console.log(calc.sub(x, y)); // 3
 console.log(calc.mult(x, y)); // 18
