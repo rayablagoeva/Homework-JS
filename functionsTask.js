@@ -7,27 +7,28 @@
 
 // ---> YOUR CODE HERE <---
  let calc= {
-    add(x,y){
+    "add":  function(x,y){
         let sum = x+y;
         return sum;
-    },
-    sub (x,y){
+},
+    "sub": function(x,y){
         let sub= x-y;
         return sub;
-    },
-    mult(x,y){
-        let mult = x * y;
-        return mult;
-    },
-    div (x,y){
+} ,
+
+    "mult": function(x,y){
+            let mult = x * y;
+            return mult;
+},
+    "div": function (x,y){
         let div = x / y;
         return div
-    }
+}
  }
 
 
 // TEST:
-let x = 6, y = 3;
+let x = 5, y = 5;
 console.log(calc.add(x, y)); // 9
 console.log(calc.sub(x, y)); // 3
 console.log(calc.mult(x, y)); // 18
